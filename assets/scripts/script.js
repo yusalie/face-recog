@@ -21,7 +21,9 @@ webcam.addEventListener('play', () =>{
     if(faces.length !=0 ){
       info.innerHTML = `<p id="text">`+faces.length + " face(s) detected" +`</p>`
     }
-
+      else{
+        info.innerHTML = "no faces detected"
+      }
   }, 1000)
   
 })
