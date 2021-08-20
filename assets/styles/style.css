@@ -1,23 +1,20 @@
 #webcam {
-	width: 130%;
-	height: 44%;
-
-}
-
-  .container {
-    align-items: center;
-    display: flex;
-    flex-wrap: wrap;
-    align-content: center;
-    position: absolute;
-    text-align: center;
-    flex-direction: column;
-    justify-content: center;
-    margin: 10% 20% auto;
+    width: 50%;
+    height: 50%;
+    position: fixed;
+    top: 25%;
+    left: 30%;
   }
 
+.container{
+    align-items: center;
+}
+#info {
+    position: relative;
+    left: 50%;
+}
 
 #text{
     font-size: 20px;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font
 }
