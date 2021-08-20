@@ -22,7 +22,7 @@ webcam.addEventListener('play', () =>{
       info.innerHTML = `<p id="text">`+faces.length + " face(s) detected" +`</p>`
     }
       else{
-        info.innerHTML = "no faces detected"
+        info.innerHTML = "No face(s) detected. Please remove obstructions"
       }
   }, 1000)
   
